@@ -1,0 +1,2058 @@
+{
+    "ROLES": [
+        {
+            "id": 1,
+            "roleName": "BR-1",
+            "designationName": "Analyst",
+            "departmentId": 1,
+            "avgCompensation": 20000,
+            "createdAt": "2024-02-01T17:17:39.641Z",
+            "updatedAt": "2024-02-01T17:17:39.641Z"
+        },
+        {
+            "id": 2,
+            "roleName": "BR-2",
+            "designationName": "Sr Analyst",
+            "departmentId": 1,
+            "avgCompensation": 40000,
+            "createdAt": "2024-02-01T17:17:39.641Z",
+            "updatedAt": "2024-02-01T17:17:39.641Z"
+        },
+        {
+            "id": 3,
+            "roleName": "BR-3",
+            "designationName": "Jr Analyst",
+            "departmentId": 1,
+            "avgCompensation": 12000,
+            "createdAt": "2024-02-01T17:17:39.641Z",
+            "updatedAt": "2024-02-01T17:17:39.641Z"
+        },
+        {
+            "id": 4,
+            "roleName": "BR-4",
+            "designationName": "Op Analyst",
+            "departmentId": 1,
+            "avgCompensation": 15000,
+            "createdAt": "2024-02-01T17:17:39.641Z",
+            "updatedAt": "2024-02-01T17:17:39.641Z"
+        }
+    ],
+    "MONTHLY_COUNTS": [
+        {
+            "id": 73,
+            "monthOfYear": "2022-04-01T00:00:00.000Z",
+            "existingCount": 33,
+            "createdAt": "2024-02-01T17:17:39.733Z",
+            "updatedAt": "2024-02-01T17:17:39.733Z",
+            "role": {
+                "id": 4,
+                "roleName": "BR-4",
+                "designationName": "Op Analyst",
+                "avgCompensation": 15000,
+                "createdAt": "2024-02-01T17:17:39.641Z",
+                "updatedAt": "2024-02-01T17:17:39.641Z",
+                "department": {
+                    "id": 1,
+                    "departmentName": "Beauty Retail",
+                    "createdAt": "2024-02-01T17:17:39.510Z",
+                    "updatedAt": "2024-02-01T17:17:39.510Z"
+                }
+            }
+        },
+        {
+            "id": 1,
+            "monthOfYear": "2022-04-01T00:00:00.000Z",
+            "existingCount": 30,
+            "createdAt": "2024-02-01T17:17:39.732Z",
+            "updatedAt": "2024-02-01T17:17:39.732Z",
+            "role": {
+                "id": 1,
+                "roleName": "BR-1",
+                "designationName": "Analyst",
+                "avgCompensation": 20000,
+                "createdAt": "2024-02-01T17:17:39.641Z",
+                "updatedAt": "2024-02-01T17:17:39.641Z",
+                "department": {
+                    "id": 1,
+                    "departmentName": "Beauty Retail",
+                    "createdAt": "2024-02-01T17:17:39.510Z",
+                    "updatedAt": "2024-02-01T17:17:39.510Z"
+                }
+            }
+        },
+        {
+            "id": 25,
+            "monthOfYear": "2022-04-01T00:00:00.000Z",
+            "existingCount": 33,
+            "createdAt": "2024-02-01T17:17:39.733Z",
+            "updatedAt": "2024-02-01T17:17:39.733Z",
+            "role": {
+                "id": 2,
+                "roleName": "BR-2",
+                "designationName": "Sr Analyst",
+                "avgCompensation": 40000,
+                "createdAt": "2024-02-01T17:17:39.641Z",
+                "updatedAt": "2024-02-01T17:17:39.641Z",
+                "department": {
+                    "id": 1,
+                    "departmentName": "Beauty Retail",
+                    "createdAt": "2024-02-01T17:17:39.510Z",
+                    "updatedAt": "2024-02-01T17:17:39.510Z"
+                }
+            }
+        },
+        {
+            "id": 49,
+            "monthOfYear": "2022-04-01T00:00:00.000Z",
+            "existingCount": 35,
+            "createdAt": "2024-02-01T17:17:39.733Z",
+            "updatedAt": "2024-02-01T17:17:39.733Z",
+            "role": {
+                "id": 3,
+                "roleName": "BR-3",
+                "designationName": "Jr Analyst",
+                "avgCompensation": 12000,
+                "createdAt": "2024-02-01T17:17:39.641Z",
+                "updatedAt": "2024-02-01T17:17:39.641Z",
+                "department": {
+                    "id": 1,
+                    "departmentName": "Beauty Retail",
+                    "createdAt": "2024-02-01T17:17:39.510Z",
+                    "updatedAt": "2024-02-01T17:17:39.510Z"
+                }
+            }
+        },
+        {
+            "id": 74,
+            "monthOfYear": "2022-05-01T00:00:00.000Z",
+            "existingCount": 35,
+            "createdAt": "2024-02-01T17:17:39.733Z",
+            "updatedAt": "2024-02-01T17:17:39.733Z",
+            "role": {
+                "id": 4,
+                "roleName": "BR-4",
+                "designationName": "Op Analyst",
+                "avgCompensation": 15000,
+                "createdAt": "2024-02-01T17:17:39.641Z",
+                "updatedAt": "2024-02-01T17:17:39.641Z",
+                "department": {
+                    "id": 1,
+                    "departmentName": "Beauty Retail",
+                    "createdAt": "2024-02-01T17:17:39.510Z",
+                    "updatedAt": "2024-02-01T17:17:39.510Z"
+                }
+            }
+        },
+        {
+            "id": 26,
+            "monthOfYear": "2022-05-01T00:00:00.000Z",
+            "existingCount": 33,
+            "createdAt": "2024-02-01T17:17:39.733Z",
+            "updatedAt": "2024-02-01T17:17:39.733Z",
+            "role": {
+                "id": 2,
+                "roleName": "BR-2",
+                "designationName": "Sr Analyst",
+                "avgCompensation": 40000,
+                "createdAt": "2024-02-01T17:17:39.641Z",
+                "updatedAt": "2024-02-01T17:17:39.641Z",
+                "department": {
+                    "id": 1,
+                    "departmentName": "Beauty Retail",
+                    "createdAt": "2024-02-01T17:17:39.510Z",
+                    "updatedAt": "2024-02-01T17:17:39.510Z"
+                }
+            }
+        },
+        {
+            "id": 50,
+            "monthOfYear": "2022-05-01T00:00:00.000Z",
+            "existingCount": 35,
+            "createdAt": "2024-02-01T17:17:39.733Z",
+            "updatedAt": "2024-02-01T17:17:39.733Z",
+            "role": {
+                "id": 3,
+                "roleName": "BR-3",
+                "designationName": "Jr Analyst",
+                "avgCompensation": 12000,
+                "createdAt": "2024-02-01T17:17:39.641Z",
+                "updatedAt": "2024-02-01T17:17:39.641Z",
+                "department": {
+                    "id": 1,
+                    "departmentName": "Beauty Retail",
+                    "createdAt": "2024-02-01T17:17:39.510Z",
+                    "updatedAt": "2024-02-01T17:17:39.510Z"
+                }
+            }
+        },
+        {
+            "id": 2,
+            "monthOfYear": "2022-05-01T00:00:00.000Z",
+            "existingCount": 31,
+            "createdAt": "2024-02-01T17:17:39.732Z",
+            "updatedAt": "2024-02-01T17:17:39.732Z",
+            "role": {
+                "id": 1,
+                "roleName": "BR-1",
+                "designationName": "Analyst",
+                "avgCompensation": 20000,
+                "createdAt": "2024-02-01T17:17:39.641Z",
+                "updatedAt": "2024-02-01T17:17:39.641Z",
+                "department": {
+                    "id": 1,
+                    "departmentName": "Beauty Retail",
+                    "createdAt": "2024-02-01T17:17:39.510Z",
+                    "updatedAt": "2024-02-01T17:17:39.510Z"
+                }
+            }
+        },
+        {
+            "id": 75,
+            "monthOfYear": "2022-06-01T00:00:00.000Z",
+            "existingCount": 39,
+            "createdAt": "2024-02-01T17:17:39.733Z",
+            "updatedAt": "2024-02-01T17:17:39.733Z",
+            "role": {
+                "id": 4,
+                "roleName": "BR-4",
+                "designationName": "Op Analyst",
+                "avgCompensation": 15000,
+                "createdAt": "2024-02-01T17:17:39.641Z",
+                "updatedAt": "2024-02-01T17:17:39.641Z",
+                "department": {
+                    "id": 1,
+                    "departmentName": "Beauty Retail",
+                    "createdAt": "2024-02-01T17:17:39.510Z",
+                    "updatedAt": "2024-02-01T17:17:39.510Z"
+                }
+            }
+        },
+        {
+            "id": 51,
+            "monthOfYear": "2022-06-01T00:00:00.000Z",
+            "existingCount": 37,
+            "createdAt": "2024-02-01T17:17:39.733Z",
+            "updatedAt": "2024-02-01T17:17:39.733Z",
+            "role": {
+                "id": 3,
+                "roleName": "BR-3",
+                "designationName": "Jr Analyst",
+                "avgCompensation": 12000,
+                "createdAt": "2024-02-01T17:17:39.641Z",
+                "updatedAt": "2024-02-01T17:17:39.641Z",
+                "department": {
+                    "id": 1,
+                    "departmentName": "Beauty Retail",
+                    "createdAt": "2024-02-01T17:17:39.510Z",
+                    "updatedAt": "2024-02-01T17:17:39.510Z"
+                }
+            }
+        },
+        {
+            "id": 27,
+            "monthOfYear": "2022-06-01T00:00:00.000Z",
+            "existingCount": 32,
+            "createdAt": "2024-02-01T17:17:39.733Z",
+            "updatedAt": "2024-02-01T17:17:39.733Z",
+            "role": {
+                "id": 2,
+                "roleName": "BR-2",
+                "designationName": "Sr Analyst",
+                "avgCompensation": 40000,
+                "createdAt": "2024-02-01T17:17:39.641Z",
+                "updatedAt": "2024-02-01T17:17:39.641Z",
+                "department": {
+                    "id": 1,
+                    "departmentName": "Beauty Retail",
+                    "createdAt": "2024-02-01T17:17:39.510Z",
+                    "updatedAt": "2024-02-01T17:17:39.510Z"
+                }
+            }
+        },
+        {
+            "id": 3,
+            "monthOfYear": "2022-06-01T00:00:00.000Z",
+            "existingCount": 28,
+            "createdAt": "2024-02-01T17:17:39.732Z",
+            "updatedAt": "2024-02-01T17:17:39.732Z",
+            "role": {
+                "id": 1,
+                "roleName": "BR-1",
+                "designationName": "Analyst",
+                "avgCompensation": 20000,
+                "createdAt": "2024-02-01T17:17:39.641Z",
+                "updatedAt": "2024-02-01T17:17:39.641Z",
+                "department": {
+                    "id": 1,
+                    "departmentName": "Beauty Retail",
+                    "createdAt": "2024-02-01T17:17:39.510Z",
+                    "updatedAt": "2024-02-01T17:17:39.510Z"
+                }
+            }
+        },
+        {
+            "id": 4,
+            "monthOfYear": "2022-07-01T00:00:00.000Z",
+            "existingCount": 33,
+            "createdAt": "2024-02-01T17:17:39.732Z",
+            "updatedAt": "2024-02-01T17:17:39.732Z",
+            "role": {
+                "id": 1,
+                "roleName": "BR-1",
+                "designationName": "Analyst",
+                "avgCompensation": 20000,
+                "createdAt": "2024-02-01T17:17:39.641Z",
+                "updatedAt": "2024-02-01T17:17:39.641Z",
+                "department": {
+                    "id": 1,
+                    "departmentName": "Beauty Retail",
+                    "createdAt": "2024-02-01T17:17:39.510Z",
+                    "updatedAt": "2024-02-01T17:17:39.510Z"
+                }
+            }
+        },
+        {
+            "id": 28,
+            "monthOfYear": "2022-07-01T00:00:00.000Z",
+            "existingCount": 34,
+            "createdAt": "2024-02-01T17:17:39.733Z",
+            "updatedAt": "2024-02-01T17:17:39.733Z",
+            "role": {
+                "id": 2,
+                "roleName": "BR-2",
+                "designationName": "Sr Analyst",
+                "avgCompensation": 40000,
+                "createdAt": "2024-02-01T17:17:39.641Z",
+                "updatedAt": "2024-02-01T17:17:39.641Z",
+                "department": {
+                    "id": 1,
+                    "departmentName": "Beauty Retail",
+                    "createdAt": "2024-02-01T17:17:39.510Z",
+                    "updatedAt": "2024-02-01T17:17:39.510Z"
+                }
+            }
+        },
+        {
+            "id": 76,
+            "monthOfYear": "2022-07-01T00:00:00.000Z",
+            "existingCount": 37,
+            "createdAt": "2024-02-01T17:17:39.733Z",
+            "updatedAt": "2024-02-01T17:17:39.733Z",
+            "role": {
+                "id": 4,
+                "roleName": "BR-4",
+                "designationName": "Op Analyst",
+                "avgCompensation": 15000,
+                "createdAt": "2024-02-01T17:17:39.641Z",
+                "updatedAt": "2024-02-01T17:17:39.641Z",
+                "department": {
+                    "id": 1,
+                    "departmentName": "Beauty Retail",
+                    "createdAt": "2024-02-01T17:17:39.510Z",
+                    "updatedAt": "2024-02-01T17:17:39.510Z"
+                }
+            }
+        },
+        {
+            "id": 52,
+            "monthOfYear": "2022-07-01T00:00:00.000Z",
+            "existingCount": 36,
+            "createdAt": "2024-02-01T17:17:39.733Z",
+            "updatedAt": "2024-02-01T17:17:39.733Z",
+            "role": {
+                "id": 3,
+                "roleName": "BR-3",
+                "designationName": "Jr Analyst",
+                "avgCompensation": 12000,
+                "createdAt": "2024-02-01T17:17:39.641Z",
+                "updatedAt": "2024-02-01T17:17:39.641Z",
+                "department": {
+                    "id": 1,
+                    "departmentName": "Beauty Retail",
+                    "createdAt": "2024-02-01T17:17:39.510Z",
+                    "updatedAt": "2024-02-01T17:17:39.510Z"
+                }
+            }
+        },
+        {
+            "id": 29,
+            "monthOfYear": "2022-08-01T00:00:00.000Z",
+            "existingCount": 36,
+            "createdAt": "2024-02-01T17:17:39.733Z",
+            "updatedAt": "2024-02-01T17:17:39.733Z",
+            "role": {
+                "id": 2,
+                "roleName": "BR-2",
+                "designationName": "Sr Analyst",
+                "avgCompensation": 40000,
+                "createdAt": "2024-02-01T17:17:39.641Z",
+                "updatedAt": "2024-02-01T17:17:39.641Z",
+                "department": {
+                    "id": 1,
+                    "departmentName": "Beauty Retail",
+                    "createdAt": "2024-02-01T17:17:39.510Z",
+                    "updatedAt": "2024-02-01T17:17:39.510Z"
+                }
+            }
+        },
+        {
+            "id": 5,
+            "monthOfYear": "2022-08-01T00:00:00.000Z",
+            "existingCount": 36,
+            "createdAt": "2024-02-01T17:17:39.732Z",
+            "updatedAt": "2024-02-01T17:17:39.732Z",
+            "role": {
+                "id": 1,
+                "roleName": "BR-1",
+                "designationName": "Analyst",
+                "avgCompensation": 20000,
+                "createdAt": "2024-02-01T17:17:39.641Z",
+                "updatedAt": "2024-02-01T17:17:39.641Z",
+                "department": {
+                    "id": 1,
+                    "departmentName": "Beauty Retail",
+                    "createdAt": "2024-02-01T17:17:39.510Z",
+                    "updatedAt": "2024-02-01T17:17:39.510Z"
+                }
+            }
+        },
+        {
+            "id": 53,
+            "monthOfYear": "2022-08-01T00:00:00.000Z",
+            "existingCount": 38,
+            "createdAt": "2024-02-01T17:17:39.733Z",
+            "updatedAt": "2024-02-01T17:17:39.733Z",
+            "role": {
+                "id": 3,
+                "roleName": "BR-3",
+                "designationName": "Jr Analyst",
+                "avgCompensation": 12000,
+                "createdAt": "2024-02-01T17:17:39.641Z",
+                "updatedAt": "2024-02-01T17:17:39.641Z",
+                "department": {
+                    "id": 1,
+                    "departmentName": "Beauty Retail",
+                    "createdAt": "2024-02-01T17:17:39.510Z",
+                    "updatedAt": "2024-02-01T17:17:39.510Z"
+                }
+            }
+        },
+        {
+            "id": 77,
+            "monthOfYear": "2022-08-01T00:00:00.000Z",
+            "existingCount": 41,
+            "createdAt": "2024-02-01T17:17:39.733Z",
+            "updatedAt": "2024-02-01T17:17:39.733Z",
+            "role": {
+                "id": 4,
+                "roleName": "BR-4",
+                "designationName": "Op Analyst",
+                "avgCompensation": 15000,
+                "createdAt": "2024-02-01T17:17:39.641Z",
+                "updatedAt": "2024-02-01T17:17:39.641Z",
+                "department": {
+                    "id": 1,
+                    "departmentName": "Beauty Retail",
+                    "createdAt": "2024-02-01T17:17:39.510Z",
+                    "updatedAt": "2024-02-01T17:17:39.510Z"
+                }
+            }
+        },
+        {
+            "id": 54,
+            "monthOfYear": "2022-09-01T00:00:00.000Z",
+            "existingCount": 39,
+            "createdAt": "2024-02-01T17:17:39.733Z",
+            "updatedAt": "2024-02-01T17:17:39.733Z",
+            "role": {
+                "id": 3,
+                "roleName": "BR-3",
+                "designationName": "Jr Analyst",
+                "avgCompensation": 12000,
+                "createdAt": "2024-02-01T17:17:39.641Z",
+                "updatedAt": "2024-02-01T17:17:39.641Z",
+                "department": {
+                    "id": 1,
+                    "departmentName": "Beauty Retail",
+                    "createdAt": "2024-02-01T17:17:39.510Z",
+                    "updatedAt": "2024-02-01T17:17:39.510Z"
+                }
+            }
+        },
+        {
+            "id": 30,
+            "monthOfYear": "2022-09-01T00:00:00.000Z",
+            "existingCount": 36,
+            "createdAt": "2024-02-01T17:17:39.733Z",
+            "updatedAt": "2024-02-01T17:17:39.733Z",
+            "role": {
+                "id": 2,
+                "roleName": "BR-2",
+                "designationName": "Sr Analyst",
+                "avgCompensation": 40000,
+                "createdAt": "2024-02-01T17:17:39.641Z",
+                "updatedAt": "2024-02-01T17:17:39.641Z",
+                "department": {
+                    "id": 1,
+                    "departmentName": "Beauty Retail",
+                    "createdAt": "2024-02-01T17:17:39.510Z",
+                    "updatedAt": "2024-02-01T17:17:39.510Z"
+                }
+            }
+        },
+        {
+            "id": 6,
+            "monthOfYear": "2022-09-01T00:00:00.000Z",
+            "existingCount": 38,
+            "createdAt": "2024-02-01T17:17:39.732Z",
+            "updatedAt": "2024-02-01T17:17:39.732Z",
+            "role": {
+                "id": 1,
+                "roleName": "BR-1",
+                "designationName": "Analyst",
+                "avgCompensation": 20000,
+                "createdAt": "2024-02-01T17:17:39.641Z",
+                "updatedAt": "2024-02-01T17:17:39.641Z",
+                "department": {
+                    "id": 1,
+                    "departmentName": "Beauty Retail",
+                    "createdAt": "2024-02-01T17:17:39.510Z",
+                    "updatedAt": "2024-02-01T17:17:39.510Z"
+                }
+            }
+        },
+        {
+            "id": 78,
+            "monthOfYear": "2022-09-01T00:00:00.000Z",
+            "existingCount": 42,
+            "createdAt": "2024-02-01T17:17:39.733Z",
+            "updatedAt": "2024-02-01T17:17:39.733Z",
+            "role": {
+                "id": 4,
+                "roleName": "BR-4",
+                "designationName": "Op Analyst",
+                "avgCompensation": 15000,
+                "createdAt": "2024-02-01T17:17:39.641Z",
+                "updatedAt": "2024-02-01T17:17:39.641Z",
+                "department": {
+                    "id": 1,
+                    "departmentName": "Beauty Retail",
+                    "createdAt": "2024-02-01T17:17:39.510Z",
+                    "updatedAt": "2024-02-01T17:17:39.510Z"
+                }
+            }
+        },
+        {
+            "id": 31,
+            "monthOfYear": "2022-10-01T00:00:00.000Z",
+            "existingCount": 37,
+            "createdAt": "2024-02-01T17:17:39.733Z",
+            "updatedAt": "2024-02-01T17:17:39.733Z",
+            "role": {
+                "id": 2,
+                "roleName": "BR-2",
+                "designationName": "Sr Analyst",
+                "avgCompensation": 40000,
+                "createdAt": "2024-02-01T17:17:39.641Z",
+                "updatedAt": "2024-02-01T17:17:39.641Z",
+                "department": {
+                    "id": 1,
+                    "departmentName": "Beauty Retail",
+                    "createdAt": "2024-02-01T17:17:39.510Z",
+                    "updatedAt": "2024-02-01T17:17:39.510Z"
+                }
+            }
+        },
+        {
+            "id": 7,
+            "monthOfYear": "2022-10-01T00:00:00.000Z",
+            "existingCount": 40,
+            "createdAt": "2024-02-01T17:17:39.732Z",
+            "updatedAt": "2024-02-01T17:17:39.732Z",
+            "role": {
+                "id": 1,
+                "roleName": "BR-1",
+                "designationName": "Analyst",
+                "avgCompensation": 20000,
+                "createdAt": "2024-02-01T17:17:39.641Z",
+                "updatedAt": "2024-02-01T17:17:39.641Z",
+                "department": {
+                    "id": 1,
+                    "departmentName": "Beauty Retail",
+                    "createdAt": "2024-02-01T17:17:39.510Z",
+                    "updatedAt": "2024-02-01T17:17:39.510Z"
+                }
+            }
+        },
+        {
+            "id": 79,
+            "monthOfYear": "2022-10-01T00:00:00.000Z",
+            "existingCount": 44,
+            "createdAt": "2024-02-01T17:17:39.733Z",
+            "updatedAt": "2024-02-01T17:17:39.733Z",
+            "role": {
+                "id": 4,
+                "roleName": "BR-4",
+                "designationName": "Op Analyst",
+                "avgCompensation": 15000,
+                "createdAt": "2024-02-01T17:17:39.641Z",
+                "updatedAt": "2024-02-01T17:17:39.641Z",
+                "department": {
+                    "id": 1,
+                    "departmentName": "Beauty Retail",
+                    "createdAt": "2024-02-01T17:17:39.510Z",
+                    "updatedAt": "2024-02-01T17:17:39.510Z"
+                }
+            }
+        },
+        {
+            "id": 55,
+            "monthOfYear": "2022-10-01T00:00:00.000Z",
+            "existingCount": 38,
+            "createdAt": "2024-02-01T17:17:39.733Z",
+            "updatedAt": "2024-02-01T17:17:39.733Z",
+            "role": {
+                "id": 3,
+                "roleName": "BR-3",
+                "designationName": "Jr Analyst",
+                "avgCompensation": 12000,
+                "createdAt": "2024-02-01T17:17:39.641Z",
+                "updatedAt": "2024-02-01T17:17:39.641Z",
+                "department": {
+                    "id": 1,
+                    "departmentName": "Beauty Retail",
+                    "createdAt": "2024-02-01T17:17:39.510Z",
+                    "updatedAt": "2024-02-01T17:17:39.510Z"
+                }
+            }
+        },
+        {
+            "id": 80,
+            "monthOfYear": "2022-11-01T00:00:00.000Z",
+            "existingCount": 47,
+            "createdAt": "2024-02-01T17:17:39.733Z",
+            "updatedAt": "2024-02-01T17:17:39.733Z",
+            "role": {
+                "id": 4,
+                "roleName": "BR-4",
+                "designationName": "Op Analyst",
+                "avgCompensation": 15000,
+                "createdAt": "2024-02-01T17:17:39.641Z",
+                "updatedAt": "2024-02-01T17:17:39.641Z",
+                "department": {
+                    "id": 1,
+                    "departmentName": "Beauty Retail",
+                    "createdAt": "2024-02-01T17:17:39.510Z",
+                    "updatedAt": "2024-02-01T17:17:39.510Z"
+                }
+            }
+        },
+        {
+            "id": 56,
+            "monthOfYear": "2022-11-01T00:00:00.000Z",
+            "existingCount": 39,
+            "createdAt": "2024-02-01T17:17:39.733Z",
+            "updatedAt": "2024-02-01T17:17:39.733Z",
+            "role": {
+                "id": 3,
+                "roleName": "BR-3",
+                "designationName": "Jr Analyst",
+                "avgCompensation": 12000,
+                "createdAt": "2024-02-01T17:17:39.641Z",
+                "updatedAt": "2024-02-01T17:17:39.641Z",
+                "department": {
+                    "id": 1,
+                    "departmentName": "Beauty Retail",
+                    "createdAt": "2024-02-01T17:17:39.510Z",
+                    "updatedAt": "2024-02-01T17:17:39.510Z"
+                }
+            }
+        },
+        {
+            "id": 8,
+            "monthOfYear": "2022-11-01T00:00:00.000Z",
+            "existingCount": 43,
+            "createdAt": "2024-02-01T17:17:39.732Z",
+            "updatedAt": "2024-02-01T17:17:39.732Z",
+            "role": {
+                "id": 1,
+                "roleName": "BR-1",
+                "designationName": "Analyst",
+                "avgCompensation": 20000,
+                "createdAt": "2024-02-01T17:17:39.641Z",
+                "updatedAt": "2024-02-01T17:17:39.641Z",
+                "department": {
+                    "id": 1,
+                    "departmentName": "Beauty Retail",
+                    "createdAt": "2024-02-01T17:17:39.510Z",
+                    "updatedAt": "2024-02-01T17:17:39.510Z"
+                }
+            }
+        },
+        {
+            "id": 32,
+            "monthOfYear": "2022-11-01T00:00:00.000Z",
+            "existingCount": 37,
+            "createdAt": "2024-02-01T17:17:39.733Z",
+            "updatedAt": "2024-02-01T17:17:39.733Z",
+            "role": {
+                "id": 2,
+                "roleName": "BR-2",
+                "designationName": "Sr Analyst",
+                "avgCompensation": 40000,
+                "createdAt": "2024-02-01T17:17:39.641Z",
+                "updatedAt": "2024-02-01T17:17:39.641Z",
+                "department": {
+                    "id": 1,
+                    "departmentName": "Beauty Retail",
+                    "createdAt": "2024-02-01T17:17:39.510Z",
+                    "updatedAt": "2024-02-01T17:17:39.510Z"
+                }
+            }
+        },
+        {
+            "id": 81,
+            "monthOfYear": "2022-12-01T00:00:00.000Z",
+            "existingCount": 48,
+            "createdAt": "2024-02-01T17:17:39.733Z",
+            "updatedAt": "2024-02-01T17:17:39.733Z",
+            "role": {
+                "id": 4,
+                "roleName": "BR-4",
+                "designationName": "Op Analyst",
+                "avgCompensation": 15000,
+                "createdAt": "2024-02-01T17:17:39.641Z",
+                "updatedAt": "2024-02-01T17:17:39.641Z",
+                "department": {
+                    "id": 1,
+                    "departmentName": "Beauty Retail",
+                    "createdAt": "2024-02-01T17:17:39.510Z",
+                    "updatedAt": "2024-02-01T17:17:39.510Z"
+                }
+            }
+        },
+        {
+            "id": 33,
+            "monthOfYear": "2022-12-01T00:00:00.000Z",
+            "existingCount": 37,
+            "createdAt": "2024-02-01T17:17:39.733Z",
+            "updatedAt": "2024-02-01T17:17:39.733Z",
+            "role": {
+                "id": 2,
+                "roleName": "BR-2",
+                "designationName": "Sr Analyst",
+                "avgCompensation": 40000,
+                "createdAt": "2024-02-01T17:17:39.641Z",
+                "updatedAt": "2024-02-01T17:17:39.641Z",
+                "department": {
+                    "id": 1,
+                    "departmentName": "Beauty Retail",
+                    "createdAt": "2024-02-01T17:17:39.510Z",
+                    "updatedAt": "2024-02-01T17:17:39.510Z"
+                }
+            }
+        },
+        {
+            "id": 57,
+            "monthOfYear": "2022-12-01T00:00:00.000Z",
+            "existingCount": 39,
+            "createdAt": "2024-02-01T17:17:39.733Z",
+            "updatedAt": "2024-02-01T17:17:39.733Z",
+            "role": {
+                "id": 3,
+                "roleName": "BR-3",
+                "designationName": "Jr Analyst",
+                "avgCompensation": 12000,
+                "createdAt": "2024-02-01T17:17:39.641Z",
+                "updatedAt": "2024-02-01T17:17:39.641Z",
+                "department": {
+                    "id": 1,
+                    "departmentName": "Beauty Retail",
+                    "createdAt": "2024-02-01T17:17:39.510Z",
+                    "updatedAt": "2024-02-01T17:17:39.510Z"
+                }
+            }
+        },
+        {
+            "id": 9,
+            "monthOfYear": "2022-12-01T00:00:00.000Z",
+            "existingCount": 44,
+            "createdAt": "2024-02-01T17:17:39.733Z",
+            "updatedAt": "2024-02-01T17:17:39.733Z",
+            "role": {
+                "id": 1,
+                "roleName": "BR-1",
+                "designationName": "Analyst",
+                "avgCompensation": 20000,
+                "createdAt": "2024-02-01T17:17:39.641Z",
+                "updatedAt": "2024-02-01T17:17:39.641Z",
+                "department": {
+                    "id": 1,
+                    "departmentName": "Beauty Retail",
+                    "createdAt": "2024-02-01T17:17:39.510Z",
+                    "updatedAt": "2024-02-01T17:17:39.510Z"
+                }
+            }
+        },
+        {
+            "id": 10,
+            "monthOfYear": "2023-01-01T00:00:00.000Z",
+            "existingCount": 48,
+            "createdAt": "2024-02-01T17:17:39.733Z",
+            "updatedAt": "2024-02-01T17:17:39.733Z",
+            "role": {
+                "id": 1,
+                "roleName": "BR-1",
+                "designationName": "Analyst",
+                "avgCompensation": 20000,
+                "createdAt": "2024-02-01T17:17:39.641Z",
+                "updatedAt": "2024-02-01T17:17:39.641Z",
+                "department": {
+                    "id": 1,
+                    "departmentName": "Beauty Retail",
+                    "createdAt": "2024-02-01T17:17:39.510Z",
+                    "updatedAt": "2024-02-01T17:17:39.510Z"
+                }
+            }
+        },
+        {
+            "id": 58,
+            "monthOfYear": "2023-01-01T00:00:00.000Z",
+            "existingCount": 43,
+            "createdAt": "2024-02-01T17:17:39.733Z",
+            "updatedAt": "2024-02-01T17:17:39.733Z",
+            "role": {
+                "id": 3,
+                "roleName": "BR-3",
+                "designationName": "Jr Analyst",
+                "avgCompensation": 12000,
+                "createdAt": "2024-02-01T17:17:39.641Z",
+                "updatedAt": "2024-02-01T17:17:39.641Z",
+                "department": {
+                    "id": 1,
+                    "departmentName": "Beauty Retail",
+                    "createdAt": "2024-02-01T17:17:39.510Z",
+                    "updatedAt": "2024-02-01T17:17:39.510Z"
+                }
+            }
+        },
+        {
+            "id": 82,
+            "monthOfYear": "2023-01-01T00:00:00.000Z",
+            "existingCount": 48,
+            "createdAt": "2024-02-01T17:17:39.733Z",
+            "updatedAt": "2024-02-01T17:17:39.733Z",
+            "role": {
+                "id": 4,
+                "roleName": "BR-4",
+                "designationName": "Op Analyst",
+                "avgCompensation": 15000,
+                "createdAt": "2024-02-01T17:17:39.641Z",
+                "updatedAt": "2024-02-01T17:17:39.641Z",
+                "department": {
+                    "id": 1,
+                    "departmentName": "Beauty Retail",
+                    "createdAt": "2024-02-01T17:17:39.510Z",
+                    "updatedAt": "2024-02-01T17:17:39.510Z"
+                }
+            }
+        },
+        {
+            "id": 34,
+            "monthOfYear": "2023-01-01T00:00:00.000Z",
+            "existingCount": 37,
+            "createdAt": "2024-02-01T17:17:39.733Z",
+            "updatedAt": "2024-02-01T17:17:39.733Z",
+            "role": {
+                "id": 2,
+                "roleName": "BR-2",
+                "designationName": "Sr Analyst",
+                "avgCompensation": 40000,
+                "createdAt": "2024-02-01T17:17:39.641Z",
+                "updatedAt": "2024-02-01T17:17:39.641Z",
+                "department": {
+                    "id": 1,
+                    "departmentName": "Beauty Retail",
+                    "createdAt": "2024-02-01T17:17:39.510Z",
+                    "updatedAt": "2024-02-01T17:17:39.510Z"
+                }
+            }
+        },
+        {
+            "id": 59,
+            "monthOfYear": "2023-02-01T00:00:00.000Z",
+            "existingCount": 47,
+            "createdAt": "2024-02-01T17:17:39.733Z",
+            "updatedAt": "2024-02-01T17:17:39.733Z",
+            "role": {
+                "id": 3,
+                "roleName": "BR-3",
+                "designationName": "Jr Analyst",
+                "avgCompensation": 12000,
+                "createdAt": "2024-02-01T17:17:39.641Z",
+                "updatedAt": "2024-02-01T17:17:39.641Z",
+                "department": {
+                    "id": 1,
+                    "departmentName": "Beauty Retail",
+                    "createdAt": "2024-02-01T17:17:39.510Z",
+                    "updatedAt": "2024-02-01T17:17:39.510Z"
+                }
+            }
+        },
+        {
+            "id": 35,
+            "monthOfYear": "2023-02-01T00:00:00.000Z",
+            "existingCount": 37,
+            "createdAt": "2024-02-01T17:17:39.733Z",
+            "updatedAt": "2024-02-01T17:17:39.733Z",
+            "role": {
+                "id": 2,
+                "roleName": "BR-2",
+                "designationName": "Sr Analyst",
+                "avgCompensation": 40000,
+                "createdAt": "2024-02-01T17:17:39.641Z",
+                "updatedAt": "2024-02-01T17:17:39.641Z",
+                "department": {
+                    "id": 1,
+                    "departmentName": "Beauty Retail",
+                    "createdAt": "2024-02-01T17:17:39.510Z",
+                    "updatedAt": "2024-02-01T17:17:39.510Z"
+                }
+            }
+        },
+        {
+            "id": 11,
+            "monthOfYear": "2023-02-01T00:00:00.000Z",
+            "existingCount": 48,
+            "createdAt": "2024-02-01T17:17:39.733Z",
+            "updatedAt": "2024-02-01T17:17:39.733Z",
+            "role": {
+                "id": 1,
+                "roleName": "BR-1",
+                "designationName": "Analyst",
+                "avgCompensation": 20000,
+                "createdAt": "2024-02-01T17:17:39.641Z",
+                "updatedAt": "2024-02-01T17:17:39.641Z",
+                "department": {
+                    "id": 1,
+                    "departmentName": "Beauty Retail",
+                    "createdAt": "2024-02-01T17:17:39.510Z",
+                    "updatedAt": "2024-02-01T17:17:39.510Z"
+                }
+            }
+        },
+        {
+            "id": 83,
+            "monthOfYear": "2023-02-01T00:00:00.000Z",
+            "existingCount": 49,
+            "createdAt": "2024-02-01T17:17:39.733Z",
+            "updatedAt": "2024-02-01T17:17:39.733Z",
+            "role": {
+                "id": 4,
+                "roleName": "BR-4",
+                "designationName": "Op Analyst",
+                "avgCompensation": 15000,
+                "createdAt": "2024-02-01T17:17:39.641Z",
+                "updatedAt": "2024-02-01T17:17:39.641Z",
+                "department": {
+                    "id": 1,
+                    "departmentName": "Beauty Retail",
+                    "createdAt": "2024-02-01T17:17:39.510Z",
+                    "updatedAt": "2024-02-01T17:17:39.510Z"
+                }
+            }
+        },
+        {
+            "id": 36,
+            "monthOfYear": "2023-03-01T00:00:00.000Z",
+            "existingCount": 36,
+            "createdAt": "2024-02-01T17:17:39.733Z",
+            "updatedAt": "2024-02-01T17:17:39.733Z",
+            "role": {
+                "id": 2,
+                "roleName": "BR-2",
+                "designationName": "Sr Analyst",
+                "avgCompensation": 40000,
+                "createdAt": "2024-02-01T17:17:39.641Z",
+                "updatedAt": "2024-02-01T17:17:39.641Z",
+                "department": {
+                    "id": 1,
+                    "departmentName": "Beauty Retail",
+                    "createdAt": "2024-02-01T17:17:39.510Z",
+                    "updatedAt": "2024-02-01T17:17:39.510Z"
+                }
+            }
+        },
+        {
+            "id": 12,
+            "monthOfYear": "2023-03-01T00:00:00.000Z",
+            "existingCount": 49,
+            "createdAt": "2024-02-01T17:17:39.733Z",
+            "updatedAt": "2024-02-01T17:17:39.733Z",
+            "role": {
+                "id": 1,
+                "roleName": "BR-1",
+                "designationName": "Analyst",
+                "avgCompensation": 20000,
+                "createdAt": "2024-02-01T17:17:39.641Z",
+                "updatedAt": "2024-02-01T17:17:39.641Z",
+                "department": {
+                    "id": 1,
+                    "departmentName": "Beauty Retail",
+                    "createdAt": "2024-02-01T17:17:39.510Z",
+                    "updatedAt": "2024-02-01T17:17:39.510Z"
+                }
+            }
+        },
+        {
+            "id": 60,
+            "monthOfYear": "2023-03-01T00:00:00.000Z",
+            "existingCount": 50,
+            "createdAt": "2024-02-01T17:17:39.733Z",
+            "updatedAt": "2024-02-01T17:17:39.733Z",
+            "role": {
+                "id": 3,
+                "roleName": "BR-3",
+                "designationName": "Jr Analyst",
+                "avgCompensation": 12000,
+                "createdAt": "2024-02-01T17:17:39.641Z",
+                "updatedAt": "2024-02-01T17:17:39.641Z",
+                "department": {
+                    "id": 1,
+                    "departmentName": "Beauty Retail",
+                    "createdAt": "2024-02-01T17:17:39.510Z",
+                    "updatedAt": "2024-02-01T17:17:39.510Z"
+                }
+            }
+        },
+        {
+            "id": 84,
+            "monthOfYear": "2023-03-01T00:00:00.000Z",
+            "existingCount": 49,
+            "createdAt": "2024-02-01T17:17:39.733Z",
+            "updatedAt": "2024-02-01T17:17:39.733Z",
+            "role": {
+                "id": 4,
+                "roleName": "BR-4",
+                "designationName": "Op Analyst",
+                "avgCompensation": 15000,
+                "createdAt": "2024-02-01T17:17:39.641Z",
+                "updatedAt": "2024-02-01T17:17:39.641Z",
+                "department": {
+                    "id": 1,
+                    "departmentName": "Beauty Retail",
+                    "createdAt": "2024-02-01T17:17:39.510Z",
+                    "updatedAt": "2024-02-01T17:17:39.510Z"
+                }
+            }
+        },
+        {
+            "id": 61,
+            "monthOfYear": "2023-04-01T00:00:00.000Z",
+            "existingCount": 51,
+            "createdAt": "2024-02-01T17:17:39.733Z",
+            "updatedAt": "2024-02-01T17:17:39.733Z",
+            "role": {
+                "id": 3,
+                "roleName": "BR-3",
+                "designationName": "Jr Analyst",
+                "avgCompensation": 12000,
+                "createdAt": "2024-02-01T17:17:39.641Z",
+                "updatedAt": "2024-02-01T17:17:39.641Z",
+                "department": {
+                    "id": 1,
+                    "departmentName": "Beauty Retail",
+                    "createdAt": "2024-02-01T17:17:39.510Z",
+                    "updatedAt": "2024-02-01T17:17:39.510Z"
+                }
+            }
+        },
+        {
+            "id": 13,
+            "monthOfYear": "2023-04-01T00:00:00.000Z",
+            "existingCount": 52,
+            "createdAt": "2024-02-01T17:17:39.733Z",
+            "updatedAt": "2024-02-01T17:17:39.733Z",
+            "role": {
+                "id": 1,
+                "roleName": "BR-1",
+                "designationName": "Analyst",
+                "avgCompensation": 20000,
+                "createdAt": "2024-02-01T17:17:39.641Z",
+                "updatedAt": "2024-02-01T17:17:39.641Z",
+                "department": {
+                    "id": 1,
+                    "departmentName": "Beauty Retail",
+                    "createdAt": "2024-02-01T17:17:39.510Z",
+                    "updatedAt": "2024-02-01T17:17:39.510Z"
+                }
+            }
+        },
+        {
+            "id": 37,
+            "monthOfYear": "2023-04-01T00:00:00.000Z",
+            "existingCount": 35,
+            "createdAt": "2024-02-01T17:17:39.733Z",
+            "updatedAt": "2024-02-01T17:17:39.733Z",
+            "role": {
+                "id": 2,
+                "roleName": "BR-2",
+                "designationName": "Sr Analyst",
+                "avgCompensation": 40000,
+                "createdAt": "2024-02-01T17:17:39.641Z",
+                "updatedAt": "2024-02-01T17:17:39.641Z",
+                "department": {
+                    "id": 1,
+                    "departmentName": "Beauty Retail",
+                    "createdAt": "2024-02-01T17:17:39.510Z",
+                    "updatedAt": "2024-02-01T17:17:39.510Z"
+                }
+            }
+        },
+        {
+            "id": 85,
+            "monthOfYear": "2023-04-01T00:00:00.000Z",
+            "existingCount": 51,
+            "createdAt": "2024-02-01T17:17:39.733Z",
+            "updatedAt": "2024-02-01T17:17:39.733Z",
+            "role": {
+                "id": 4,
+                "roleName": "BR-4",
+                "designationName": "Op Analyst",
+                "avgCompensation": 15000,
+                "createdAt": "2024-02-01T17:17:39.641Z",
+                "updatedAt": "2024-02-01T17:17:39.641Z",
+                "department": {
+                    "id": 1,
+                    "departmentName": "Beauty Retail",
+                    "createdAt": "2024-02-01T17:17:39.510Z",
+                    "updatedAt": "2024-02-01T17:17:39.510Z"
+                }
+            }
+        },
+        {
+            "id": 62,
+            "monthOfYear": "2023-05-01T00:00:00.000Z",
+            "existingCount": 52,
+            "createdAt": "2024-02-01T17:17:39.733Z",
+            "updatedAt": "2024-02-01T17:17:39.733Z",
+            "role": {
+                "id": 3,
+                "roleName": "BR-3",
+                "designationName": "Jr Analyst",
+                "avgCompensation": 12000,
+                "createdAt": "2024-02-01T17:17:39.641Z",
+                "updatedAt": "2024-02-01T17:17:39.641Z",
+                "department": {
+                    "id": 1,
+                    "departmentName": "Beauty Retail",
+                    "createdAt": "2024-02-01T17:17:39.510Z",
+                    "updatedAt": "2024-02-01T17:17:39.510Z"
+                }
+            }
+        },
+        {
+            "id": 14,
+            "monthOfYear": "2023-05-01T00:00:00.000Z",
+            "existingCount": 53,
+            "createdAt": "2024-02-01T17:17:39.733Z",
+            "updatedAt": "2024-02-01T17:17:39.733Z",
+            "role": {
+                "id": 1,
+                "roleName": "BR-1",
+                "designationName": "Analyst",
+                "avgCompensation": 20000,
+                "createdAt": "2024-02-01T17:17:39.641Z",
+                "updatedAt": "2024-02-01T17:17:39.641Z",
+                "department": {
+                    "id": 1,
+                    "departmentName": "Beauty Retail",
+                    "createdAt": "2024-02-01T17:17:39.510Z",
+                    "updatedAt": "2024-02-01T17:17:39.510Z"
+                }
+            }
+        },
+        {
+            "id": 86,
+            "monthOfYear": "2023-05-01T00:00:00.000Z",
+            "existingCount": 53,
+            "createdAt": "2024-02-01T17:17:39.733Z",
+            "updatedAt": "2024-02-01T17:17:39.733Z",
+            "role": {
+                "id": 4,
+                "roleName": "BR-4",
+                "designationName": "Op Analyst",
+                "avgCompensation": 15000,
+                "createdAt": "2024-02-01T17:17:39.641Z",
+                "updatedAt": "2024-02-01T17:17:39.641Z",
+                "department": {
+                    "id": 1,
+                    "departmentName": "Beauty Retail",
+                    "createdAt": "2024-02-01T17:17:39.510Z",
+                    "updatedAt": "2024-02-01T17:17:39.510Z"
+                }
+            }
+        },
+        {
+            "id": 38,
+            "monthOfYear": "2023-05-01T00:00:00.000Z",
+            "existingCount": 39,
+            "createdAt": "2024-02-01T17:17:39.733Z",
+            "updatedAt": "2024-02-01T17:17:39.733Z",
+            "role": {
+                "id": 2,
+                "roleName": "BR-2",
+                "designationName": "Sr Analyst",
+                "avgCompensation": 40000,
+                "createdAt": "2024-02-01T17:17:39.641Z",
+                "updatedAt": "2024-02-01T17:17:39.641Z",
+                "department": {
+                    "id": 1,
+                    "departmentName": "Beauty Retail",
+                    "createdAt": "2024-02-01T17:17:39.510Z",
+                    "updatedAt": "2024-02-01T17:17:39.510Z"
+                }
+            }
+        },
+        {
+            "id": 63,
+            "monthOfYear": "2023-06-01T00:00:00.000Z",
+            "existingCount": 52,
+            "createdAt": "2024-02-01T17:17:39.733Z",
+            "updatedAt": "2024-02-01T17:17:39.733Z",
+            "role": {
+                "id": 3,
+                "roleName": "BR-3",
+                "designationName": "Jr Analyst",
+                "avgCompensation": 12000,
+                "createdAt": "2024-02-01T17:17:39.641Z",
+                "updatedAt": "2024-02-01T17:17:39.641Z",
+                "department": {
+                    "id": 1,
+                    "departmentName": "Beauty Retail",
+                    "createdAt": "2024-02-01T17:17:39.510Z",
+                    "updatedAt": "2024-02-01T17:17:39.510Z"
+                }
+            }
+        },
+        {
+            "id": 39,
+            "monthOfYear": "2023-06-01T00:00:00.000Z",
+            "existingCount": 36,
+            "createdAt": "2024-02-01T17:17:39.733Z",
+            "updatedAt": "2024-02-01T17:17:39.733Z",
+            "role": {
+                "id": 2,
+                "roleName": "BR-2",
+                "designationName": "Sr Analyst",
+                "avgCompensation": 40000,
+                "createdAt": "2024-02-01T17:17:39.641Z",
+                "updatedAt": "2024-02-01T17:17:39.641Z",
+                "department": {
+                    "id": 1,
+                    "departmentName": "Beauty Retail",
+                    "createdAt": "2024-02-01T17:17:39.510Z",
+                    "updatedAt": "2024-02-01T17:17:39.510Z"
+                }
+            }
+        },
+        {
+            "id": 87,
+            "monthOfYear": "2023-06-01T00:00:00.000Z",
+            "existingCount": 53,
+            "createdAt": "2024-02-01T17:17:39.733Z",
+            "updatedAt": "2024-02-01T17:17:39.733Z",
+            "role": {
+                "id": 4,
+                "roleName": "BR-4",
+                "designationName": "Op Analyst",
+                "avgCompensation": 15000,
+                "createdAt": "2024-02-01T17:17:39.641Z",
+                "updatedAt": "2024-02-01T17:17:39.641Z",
+                "department": {
+                    "id": 1,
+                    "departmentName": "Beauty Retail",
+                    "createdAt": "2024-02-01T17:17:39.510Z",
+                    "updatedAt": "2024-02-01T17:17:39.510Z"
+                }
+            }
+        },
+        {
+            "id": 15,
+            "monthOfYear": "2023-06-01T00:00:00.000Z",
+            "existingCount": 56,
+            "createdAt": "2024-02-01T17:17:39.733Z",
+            "updatedAt": "2024-02-01T17:17:39.733Z",
+            "role": {
+                "id": 1,
+                "roleName": "BR-1",
+                "designationName": "Analyst",
+                "avgCompensation": 20000,
+                "createdAt": "2024-02-01T17:17:39.641Z",
+                "updatedAt": "2024-02-01T17:17:39.641Z",
+                "department": {
+                    "id": 1,
+                    "departmentName": "Beauty Retail",
+                    "createdAt": "2024-02-01T17:17:39.510Z",
+                    "updatedAt": "2024-02-01T17:17:39.510Z"
+                }
+            }
+        },
+        {
+            "id": 40,
+            "monthOfYear": "2023-07-01T00:00:00.000Z",
+            "existingCount": 35,
+            "createdAt": "2024-02-01T17:17:39.733Z",
+            "updatedAt": "2024-02-01T17:17:39.733Z",
+            "role": {
+                "id": 2,
+                "roleName": "BR-2",
+                "designationName": "Sr Analyst",
+                "avgCompensation": 40000,
+                "createdAt": "2024-02-01T17:17:39.641Z",
+                "updatedAt": "2024-02-01T17:17:39.641Z",
+                "department": {
+                    "id": 1,
+                    "departmentName": "Beauty Retail",
+                    "createdAt": "2024-02-01T17:17:39.510Z",
+                    "updatedAt": "2024-02-01T17:17:39.510Z"
+                }
+            }
+        },
+        {
+            "id": 16,
+            "monthOfYear": "2023-07-01T00:00:00.000Z",
+            "existingCount": 54,
+            "createdAt": "2024-02-01T17:17:39.733Z",
+            "updatedAt": "2024-02-01T17:17:39.733Z",
+            "role": {
+                "id": 1,
+                "roleName": "BR-1",
+                "designationName": "Analyst",
+                "avgCompensation": 20000,
+                "createdAt": "2024-02-01T17:17:39.641Z",
+                "updatedAt": "2024-02-01T17:17:39.641Z",
+                "department": {
+                    "id": 1,
+                    "departmentName": "Beauty Retail",
+                    "createdAt": "2024-02-01T17:17:39.510Z",
+                    "updatedAt": "2024-02-01T17:17:39.510Z"
+                }
+            }
+        },
+        {
+            "id": 88,
+            "monthOfYear": "2023-07-01T00:00:00.000Z",
+            "existingCount": 51,
+            "createdAt": "2024-02-01T17:17:39.733Z",
+            "updatedAt": "2024-02-01T17:17:39.733Z",
+            "role": {
+                "id": 4,
+                "roleName": "BR-4",
+                "designationName": "Op Analyst",
+                "avgCompensation": 15000,
+                "createdAt": "2024-02-01T17:17:39.641Z",
+                "updatedAt": "2024-02-01T17:17:39.641Z",
+                "department": {
+                    "id": 1,
+                    "departmentName": "Beauty Retail",
+                    "createdAt": "2024-02-01T17:17:39.510Z",
+                    "updatedAt": "2024-02-01T17:17:39.510Z"
+                }
+            }
+        },
+        {
+            "id": 64,
+            "monthOfYear": "2023-07-01T00:00:00.000Z",
+            "existingCount": 49,
+            "createdAt": "2024-02-01T17:17:39.733Z",
+            "updatedAt": "2024-02-01T17:17:39.733Z",
+            "role": {
+                "id": 3,
+                "roleName": "BR-3",
+                "designationName": "Jr Analyst",
+                "avgCompensation": 12000,
+                "createdAt": "2024-02-01T17:17:39.641Z",
+                "updatedAt": "2024-02-01T17:17:39.641Z",
+                "department": {
+                    "id": 1,
+                    "departmentName": "Beauty Retail",
+                    "createdAt": "2024-02-01T17:17:39.510Z",
+                    "updatedAt": "2024-02-01T17:17:39.510Z"
+                }
+            }
+        },
+        {
+            "id": 89,
+            "monthOfYear": "2023-08-01T00:00:00.000Z",
+            "existingCount": 53,
+            "createdAt": "2024-02-01T17:17:39.733Z",
+            "updatedAt": "2024-02-01T17:17:39.733Z",
+            "role": {
+                "id": 4,
+                "roleName": "BR-4",
+                "designationName": "Op Analyst",
+                "avgCompensation": 15000,
+                "createdAt": "2024-02-01T17:17:39.641Z",
+                "updatedAt": "2024-02-01T17:17:39.641Z",
+                "department": {
+                    "id": 1,
+                    "departmentName": "Beauty Retail",
+                    "createdAt": "2024-02-01T17:17:39.510Z",
+                    "updatedAt": "2024-02-01T17:17:39.510Z"
+                }
+            }
+        },
+        {
+            "id": 65,
+            "monthOfYear": "2023-08-01T00:00:00.000Z",
+            "existingCount": 52,
+            "createdAt": "2024-02-01T17:17:39.733Z",
+            "updatedAt": "2024-02-01T17:17:39.733Z",
+            "role": {
+                "id": 3,
+                "roleName": "BR-3",
+                "designationName": "Jr Analyst",
+                "avgCompensation": 12000,
+                "createdAt": "2024-02-01T17:17:39.641Z",
+                "updatedAt": "2024-02-01T17:17:39.641Z",
+                "department": {
+                    "id": 1,
+                    "departmentName": "Beauty Retail",
+                    "createdAt": "2024-02-01T17:17:39.510Z",
+                    "updatedAt": "2024-02-01T17:17:39.510Z"
+                }
+            }
+        },
+        {
+            "id": 17,
+            "monthOfYear": "2023-08-01T00:00:00.000Z",
+            "existingCount": 56,
+            "createdAt": "2024-02-01T17:17:39.733Z",
+            "updatedAt": "2024-02-01T17:17:39.733Z",
+            "role": {
+                "id": 1,
+                "roleName": "BR-1",
+                "designationName": "Analyst",
+                "avgCompensation": 20000,
+                "createdAt": "2024-02-01T17:17:39.641Z",
+                "updatedAt": "2024-02-01T17:17:39.641Z",
+                "department": {
+                    "id": 1,
+                    "departmentName": "Beauty Retail",
+                    "createdAt": "2024-02-01T17:17:39.510Z",
+                    "updatedAt": "2024-02-01T17:17:39.510Z"
+                }
+            }
+        },
+        {
+            "id": 41,
+            "monthOfYear": "2023-08-01T00:00:00.000Z",
+            "existingCount": 36,
+            "createdAt": "2024-02-01T17:17:39.733Z",
+            "updatedAt": "2024-02-01T17:17:39.733Z",
+            "role": {
+                "id": 2,
+                "roleName": "BR-2",
+                "designationName": "Sr Analyst",
+                "avgCompensation": 40000,
+                "createdAt": "2024-02-01T17:17:39.641Z",
+                "updatedAt": "2024-02-01T17:17:39.641Z",
+                "department": {
+                    "id": 1,
+                    "departmentName": "Beauty Retail",
+                    "createdAt": "2024-02-01T17:17:39.510Z",
+                    "updatedAt": "2024-02-01T17:17:39.510Z"
+                }
+            }
+        },
+        {
+            "id": 18,
+            "monthOfYear": "2023-09-01T00:00:00.000Z",
+            "existingCount": 56,
+            "createdAt": "2024-02-01T17:17:39.733Z",
+            "updatedAt": "2024-02-01T17:17:39.733Z",
+            "role": {
+                "id": 1,
+                "roleName": "BR-1",
+                "designationName": "Analyst",
+                "avgCompensation": 20000,
+                "createdAt": "2024-02-01T17:17:39.641Z",
+                "updatedAt": "2024-02-01T17:17:39.641Z",
+                "department": {
+                    "id": 1,
+                    "departmentName": "Beauty Retail",
+                    "createdAt": "2024-02-01T17:17:39.510Z",
+                    "updatedAt": "2024-02-01T17:17:39.510Z"
+                }
+            }
+        },
+        {
+            "id": 42,
+            "monthOfYear": "2023-09-01T00:00:00.000Z",
+            "existingCount": 36,
+            "createdAt": "2024-02-01T17:17:39.733Z",
+            "updatedAt": "2024-02-01T17:17:39.733Z",
+            "role": {
+                "id": 2,
+                "roleName": "BR-2",
+                "designationName": "Sr Analyst",
+                "avgCompensation": 40000,
+                "createdAt": "2024-02-01T17:17:39.641Z",
+                "updatedAt": "2024-02-01T17:17:39.641Z",
+                "department": {
+                    "id": 1,
+                    "departmentName": "Beauty Retail",
+                    "createdAt": "2024-02-01T17:17:39.510Z",
+                    "updatedAt": "2024-02-01T17:17:39.510Z"
+                }
+            }
+        },
+        {
+            "id": 90,
+            "monthOfYear": "2023-09-01T00:00:00.000Z",
+            "existingCount": 53,
+            "createdAt": "2024-02-01T17:17:39.733Z",
+            "updatedAt": "2024-02-01T17:17:39.733Z",
+            "role": {
+                "id": 4,
+                "roleName": "BR-4",
+                "designationName": "Op Analyst",
+                "avgCompensation": 15000,
+                "createdAt": "2024-02-01T17:17:39.641Z",
+                "updatedAt": "2024-02-01T17:17:39.641Z",
+                "department": {
+                    "id": 1,
+                    "departmentName": "Beauty Retail",
+                    "createdAt": "2024-02-01T17:17:39.510Z",
+                    "updatedAt": "2024-02-01T17:17:39.510Z"
+                }
+            }
+        },
+        {
+            "id": 66,
+            "monthOfYear": "2023-09-01T00:00:00.000Z",
+            "existingCount": 52,
+            "createdAt": "2024-02-01T17:17:39.733Z",
+            "updatedAt": "2024-02-01T17:17:39.733Z",
+            "role": {
+                "id": 3,
+                "roleName": "BR-3",
+                "designationName": "Jr Analyst",
+                "avgCompensation": 12000,
+                "createdAt": "2024-02-01T17:17:39.641Z",
+                "updatedAt": "2024-02-01T17:17:39.641Z",
+                "department": {
+                    "id": 1,
+                    "departmentName": "Beauty Retail",
+                    "createdAt": "2024-02-01T17:17:39.510Z",
+                    "updatedAt": "2024-02-01T17:17:39.510Z"
+                }
+            }
+        },
+        {
+            "id": 91,
+            "monthOfYear": "2023-10-01T00:00:00.000Z",
+            "existingCount": 53,
+            "createdAt": "2024-02-01T17:17:39.733Z",
+            "updatedAt": "2024-02-01T17:17:39.733Z",
+            "role": {
+                "id": 4,
+                "roleName": "BR-4",
+                "designationName": "Op Analyst",
+                "avgCompensation": 15000,
+                "createdAt": "2024-02-01T17:17:39.641Z",
+                "updatedAt": "2024-02-01T17:17:39.641Z",
+                "department": {
+                    "id": 1,
+                    "departmentName": "Beauty Retail",
+                    "createdAt": "2024-02-01T17:17:39.510Z",
+                    "updatedAt": "2024-02-01T17:17:39.510Z"
+                }
+            }
+        },
+        {
+            "id": 43,
+            "monthOfYear": "2023-10-01T00:00:00.000Z",
+            "existingCount": 36,
+            "createdAt": "2024-02-01T17:17:39.733Z",
+            "updatedAt": "2024-02-01T17:17:39.733Z",
+            "role": {
+                "id": 2,
+                "roleName": "BR-2",
+                "designationName": "Sr Analyst",
+                "avgCompensation": 40000,
+                "createdAt": "2024-02-01T17:17:39.641Z",
+                "updatedAt": "2024-02-01T17:17:39.641Z",
+                "department": {
+                    "id": 1,
+                    "departmentName": "Beauty Retail",
+                    "createdAt": "2024-02-01T17:17:39.510Z",
+                    "updatedAt": "2024-02-01T17:17:39.510Z"
+                }
+            }
+        },
+        {
+            "id": 67,
+            "monthOfYear": "2023-10-01T00:00:00.000Z",
+            "existingCount": 52,
+            "createdAt": "2024-02-01T17:17:39.733Z",
+            "updatedAt": "2024-02-01T17:17:39.733Z",
+            "role": {
+                "id": 3,
+                "roleName": "BR-3",
+                "designationName": "Jr Analyst",
+                "avgCompensation": 12000,
+                "createdAt": "2024-02-01T17:17:39.641Z",
+                "updatedAt": "2024-02-01T17:17:39.641Z",
+                "department": {
+                    "id": 1,
+                    "departmentName": "Beauty Retail",
+                    "createdAt": "2024-02-01T17:17:39.510Z",
+                    "updatedAt": "2024-02-01T17:17:39.510Z"
+                }
+            }
+        },
+        {
+            "id": 19,
+            "monthOfYear": "2023-10-01T00:00:00.000Z",
+            "existingCount": 56,
+            "createdAt": "2024-02-01T17:17:39.733Z",
+            "updatedAt": "2024-02-01T17:17:39.733Z",
+            "role": {
+                "id": 1,
+                "roleName": "BR-1",
+                "designationName": "Analyst",
+                "avgCompensation": 20000,
+                "createdAt": "2024-02-01T17:17:39.641Z",
+                "updatedAt": "2024-02-01T17:17:39.641Z",
+                "department": {
+                    "id": 1,
+                    "departmentName": "Beauty Retail",
+                    "createdAt": "2024-02-01T17:17:39.510Z",
+                    "updatedAt": "2024-02-01T17:17:39.510Z"
+                }
+            }
+        },
+        {
+            "id": 68,
+            "monthOfYear": "2023-11-01T00:00:00.000Z",
+            "existingCount": 52,
+            "createdAt": "2024-02-01T17:17:39.733Z",
+            "updatedAt": "2024-02-01T17:17:39.733Z",
+            "role": {
+                "id": 3,
+                "roleName": "BR-3",
+                "designationName": "Jr Analyst",
+                "avgCompensation": 12000,
+                "createdAt": "2024-02-01T17:17:39.641Z",
+                "updatedAt": "2024-02-01T17:17:39.641Z",
+                "department": {
+                    "id": 1,
+                    "departmentName": "Beauty Retail",
+                    "createdAt": "2024-02-01T17:17:39.510Z",
+                    "updatedAt": "2024-02-01T17:17:39.510Z"
+                }
+            }
+        },
+        {
+            "id": 20,
+            "monthOfYear": "2023-11-01T00:00:00.000Z",
+            "existingCount": 56,
+            "createdAt": "2024-02-01T17:17:39.733Z",
+            "updatedAt": "2024-02-01T17:17:39.733Z",
+            "role": {
+                "id": 1,
+                "roleName": "BR-1",
+                "designationName": "Analyst",
+                "avgCompensation": 20000,
+                "createdAt": "2024-02-01T17:17:39.641Z",
+                "updatedAt": "2024-02-01T17:17:39.641Z",
+                "department": {
+                    "id": 1,
+                    "departmentName": "Beauty Retail",
+                    "createdAt": "2024-02-01T17:17:39.510Z",
+                    "updatedAt": "2024-02-01T17:17:39.510Z"
+                }
+            }
+        },
+        {
+            "id": 92,
+            "monthOfYear": "2023-11-01T00:00:00.000Z",
+            "existingCount": 53,
+            "createdAt": "2024-02-01T17:17:39.733Z",
+            "updatedAt": "2024-02-01T17:17:39.733Z",
+            "role": {
+                "id": 4,
+                "roleName": "BR-4",
+                "designationName": "Op Analyst",
+                "avgCompensation": 15000,
+                "createdAt": "2024-02-01T17:17:39.641Z",
+                "updatedAt": "2024-02-01T17:17:39.641Z",
+                "department": {
+                    "id": 1,
+                    "departmentName": "Beauty Retail",
+                    "createdAt": "2024-02-01T17:17:39.510Z",
+                    "updatedAt": "2024-02-01T17:17:39.510Z"
+                }
+            }
+        },
+        {
+            "id": 44,
+            "monthOfYear": "2023-11-01T00:00:00.000Z",
+            "existingCount": 36,
+            "createdAt": "2024-02-01T17:17:39.733Z",
+            "updatedAt": "2024-02-01T17:17:39.733Z",
+            "role": {
+                "id": 2,
+                "roleName": "BR-2",
+                "designationName": "Sr Analyst",
+                "avgCompensation": 40000,
+                "createdAt": "2024-02-01T17:17:39.641Z",
+                "updatedAt": "2024-02-01T17:17:39.641Z",
+                "department": {
+                    "id": 1,
+                    "departmentName": "Beauty Retail",
+                    "createdAt": "2024-02-01T17:17:39.510Z",
+                    "updatedAt": "2024-02-01T17:17:39.510Z"
+                }
+            }
+        },
+        {
+            "id": 21,
+            "monthOfYear": "2023-12-01T00:00:00.000Z",
+            "existingCount": 56,
+            "createdAt": "2024-02-01T17:17:39.733Z",
+            "updatedAt": "2024-02-01T17:17:39.733Z",
+            "role": {
+                "id": 1,
+                "roleName": "BR-1",
+                "designationName": "Analyst",
+                "avgCompensation": 20000,
+                "createdAt": "2024-02-01T17:17:39.641Z",
+                "updatedAt": "2024-02-01T17:17:39.641Z",
+                "department": {
+                    "id": 1,
+                    "departmentName": "Beauty Retail",
+                    "createdAt": "2024-02-01T17:17:39.510Z",
+                    "updatedAt": "2024-02-01T17:17:39.510Z"
+                }
+            }
+        },
+        {
+            "id": 69,
+            "monthOfYear": "2023-12-01T00:00:00.000Z",
+            "existingCount": 52,
+            "createdAt": "2024-02-01T17:17:39.733Z",
+            "updatedAt": "2024-02-01T17:17:39.733Z",
+            "role": {
+                "id": 3,
+                "roleName": "BR-3",
+                "designationName": "Jr Analyst",
+                "avgCompensation": 12000,
+                "createdAt": "2024-02-01T17:17:39.641Z",
+                "updatedAt": "2024-02-01T17:17:39.641Z",
+                "department": {
+                    "id": 1,
+                    "departmentName": "Beauty Retail",
+                    "createdAt": "2024-02-01T17:17:39.510Z",
+                    "updatedAt": "2024-02-01T17:17:39.510Z"
+                }
+            }
+        },
+        {
+            "id": 45,
+            "monthOfYear": "2023-12-01T00:00:00.000Z",
+            "existingCount": 36,
+            "createdAt": "2024-02-01T17:17:39.733Z",
+            "updatedAt": "2024-02-01T17:17:39.733Z",
+            "role": {
+                "id": 2,
+                "roleName": "BR-2",
+                "designationName": "Sr Analyst",
+                "avgCompensation": 40000,
+                "createdAt": "2024-02-01T17:17:39.641Z",
+                "updatedAt": "2024-02-01T17:17:39.641Z",
+                "department": {
+                    "id": 1,
+                    "departmentName": "Beauty Retail",
+                    "createdAt": "2024-02-01T17:17:39.510Z",
+                    "updatedAt": "2024-02-01T17:17:39.510Z"
+                }
+            }
+        },
+        {
+            "id": 93,
+            "monthOfYear": "2023-12-01T00:00:00.000Z",
+            "existingCount": 53,
+            "createdAt": "2024-02-01T17:17:39.733Z",
+            "updatedAt": "2024-02-01T17:17:39.733Z",
+            "role": {
+                "id": 4,
+                "roleName": "BR-4",
+                "designationName": "Op Analyst",
+                "avgCompensation": 15000,
+                "createdAt": "2024-02-01T17:17:39.641Z",
+                "updatedAt": "2024-02-01T17:17:39.641Z",
+                "department": {
+                    "id": 1,
+                    "departmentName": "Beauty Retail",
+                    "createdAt": "2024-02-01T17:17:39.510Z",
+                    "updatedAt": "2024-02-01T17:17:39.510Z"
+                }
+            }
+        },
+        {
+            "id": 70,
+            "monthOfYear": "2024-01-01T00:00:00.000Z",
+            "existingCount": 52,
+            "createdAt": "2024-02-01T17:17:39.733Z",
+            "updatedAt": "2024-02-01T17:17:39.733Z",
+            "role": {
+                "id": 3,
+                "roleName": "BR-3",
+                "designationName": "Jr Analyst",
+                "avgCompensation": 12000,
+                "createdAt": "2024-02-01T17:17:39.641Z",
+                "updatedAt": "2024-02-01T17:17:39.641Z",
+                "department": {
+                    "id": 1,
+                    "departmentName": "Beauty Retail",
+                    "createdAt": "2024-02-01T17:17:39.510Z",
+                    "updatedAt": "2024-02-01T17:17:39.510Z"
+                }
+            }
+        },
+        {
+            "id": 46,
+            "monthOfYear": "2024-01-01T00:00:00.000Z",
+            "existingCount": 36,
+            "createdAt": "2024-02-01T17:17:39.733Z",
+            "updatedAt": "2024-02-01T17:17:39.733Z",
+            "role": {
+                "id": 2,
+                "roleName": "BR-2",
+                "designationName": "Sr Analyst",
+                "avgCompensation": 40000,
+                "createdAt": "2024-02-01T17:17:39.641Z",
+                "updatedAt": "2024-02-01T17:17:39.641Z",
+                "department": {
+                    "id": 1,
+                    "departmentName": "Beauty Retail",
+                    "createdAt": "2024-02-01T17:17:39.510Z",
+                    "updatedAt": "2024-02-01T17:17:39.510Z"
+                }
+            }
+        },
+        {
+            "id": 22,
+            "monthOfYear": "2024-01-01T00:00:00.000Z",
+            "existingCount": 56,
+            "createdAt": "2024-02-01T17:17:39.733Z",
+            "updatedAt": "2024-02-01T17:17:39.733Z",
+            "role": {
+                "id": 1,
+                "roleName": "BR-1",
+                "designationName": "Analyst",
+                "avgCompensation": 20000,
+                "createdAt": "2024-02-01T17:17:39.641Z",
+                "updatedAt": "2024-02-01T17:17:39.641Z",
+                "department": {
+                    "id": 1,
+                    "departmentName": "Beauty Retail",
+                    "createdAt": "2024-02-01T17:17:39.510Z",
+                    "updatedAt": "2024-02-01T17:17:39.510Z"
+                }
+            }
+        },
+        {
+            "id": 94,
+            "monthOfYear": "2024-01-01T00:00:00.000Z",
+            "existingCount": 53,
+            "createdAt": "2024-02-01T17:17:39.733Z",
+            "updatedAt": "2024-02-01T17:17:39.733Z",
+            "role": {
+                "id": 4,
+                "roleName": "BR-4",
+                "designationName": "Op Analyst",
+                "avgCompensation": 15000,
+                "createdAt": "2024-02-01T17:17:39.641Z",
+                "updatedAt": "2024-02-01T17:17:39.641Z",
+                "department": {
+                    "id": 1,
+                    "departmentName": "Beauty Retail",
+                    "createdAt": "2024-02-01T17:17:39.510Z",
+                    "updatedAt": "2024-02-01T17:17:39.510Z"
+                }
+            }
+        },
+        {
+            "id": 47,
+            "monthOfYear": "2024-02-01T00:00:00.000Z",
+            "existingCount": 36,
+            "createdAt": "2024-02-01T17:17:39.733Z",
+            "updatedAt": "2024-02-01T17:17:39.733Z",
+            "role": {
+                "id": 2,
+                "roleName": "BR-2",
+                "designationName": "Sr Analyst",
+                "avgCompensation": 40000,
+                "createdAt": "2024-02-01T17:17:39.641Z",
+                "updatedAt": "2024-02-01T17:17:39.641Z",
+                "department": {
+                    "id": 1,
+                    "departmentName": "Beauty Retail",
+                    "createdAt": "2024-02-01T17:17:39.510Z",
+                    "updatedAt": "2024-02-01T17:17:39.510Z"
+                }
+            }
+        },
+        {
+            "id": 23,
+            "monthOfYear": "2024-02-01T00:00:00.000Z",
+            "existingCount": 56,
+            "createdAt": "2024-02-01T17:17:39.733Z",
+            "updatedAt": "2024-02-01T17:17:39.733Z",
+            "role": {
+                "id": 1,
+                "roleName": "BR-1",
+                "designationName": "Analyst",
+                "avgCompensation": 20000,
+                "createdAt": "2024-02-01T17:17:39.641Z",
+                "updatedAt": "2024-02-01T17:17:39.641Z",
+                "department": {
+                    "id": 1,
+                    "departmentName": "Beauty Retail",
+                    "createdAt": "2024-02-01T17:17:39.510Z",
+                    "updatedAt": "2024-02-01T17:17:39.510Z"
+                }
+            }
+        },
+        {
+            "id": 95,
+            "monthOfYear": "2024-02-01T00:00:00.000Z",
+            "existingCount": 53,
+            "createdAt": "2024-02-01T17:17:39.733Z",
+            "updatedAt": "2024-02-01T17:17:39.733Z",
+            "role": {
+                "id": 4,
+                "roleName": "BR-4",
+                "designationName": "Op Analyst",
+                "avgCompensation": 15000,
+                "createdAt": "2024-02-01T17:17:39.641Z",
+                "updatedAt": "2024-02-01T17:17:39.641Z",
+                "department": {
+                    "id": 1,
+                    "departmentName": "Beauty Retail",
+                    "createdAt": "2024-02-01T17:17:39.510Z",
+                    "updatedAt": "2024-02-01T17:17:39.510Z"
+                }
+            }
+        },
+        {
+            "id": 71,
+            "monthOfYear": "2024-02-01T00:00:00.000Z",
+            "existingCount": 52,
+            "createdAt": "2024-02-01T17:17:39.733Z",
+            "updatedAt": "2024-02-01T17:17:39.733Z",
+            "role": {
+                "id": 3,
+                "roleName": "BR-3",
+                "designationName": "Jr Analyst",
+                "avgCompensation": 12000,
+                "createdAt": "2024-02-01T17:17:39.641Z",
+                "updatedAt": "2024-02-01T17:17:39.641Z",
+                "department": {
+                    "id": 1,
+                    "departmentName": "Beauty Retail",
+                    "createdAt": "2024-02-01T17:17:39.510Z",
+                    "updatedAt": "2024-02-01T17:17:39.510Z"
+                }
+            }
+        },
+        {
+            "id": 96,
+            "monthOfYear": "2024-03-01T00:00:00.000Z",
+            "existingCount": 53,
+            "createdAt": "2024-02-01T17:17:39.733Z",
+            "updatedAt": "2024-02-01T17:17:39.733Z",
+            "role": {
+                "id": 4,
+                "roleName": "BR-4",
+                "designationName": "Op Analyst",
+                "avgCompensation": 15000,
+                "createdAt": "2024-02-01T17:17:39.641Z",
+                "updatedAt": "2024-02-01T17:17:39.641Z",
+                "department": {
+                    "id": 1,
+                    "departmentName": "Beauty Retail",
+                    "createdAt": "2024-02-01T17:17:39.510Z",
+                    "updatedAt": "2024-02-01T17:17:39.510Z"
+                }
+            }
+        },
+        {
+            "id": 72,
+            "monthOfYear": "2024-03-01T00:00:00.000Z",
+            "existingCount": 52,
+            "createdAt": "2024-02-01T17:17:39.733Z",
+            "updatedAt": "2024-02-01T17:17:39.733Z",
+            "role": {
+                "id": 3,
+                "roleName": "BR-3",
+                "designationName": "Jr Analyst",
+                "avgCompensation": 12000,
+                "createdAt": "2024-02-01T17:17:39.641Z",
+                "updatedAt": "2024-02-01T17:17:39.641Z",
+                "department": {
+                    "id": 1,
+                    "departmentName": "Beauty Retail",
+                    "createdAt": "2024-02-01T17:17:39.510Z",
+                    "updatedAt": "2024-02-01T17:17:39.510Z"
+                }
+            }
+        },
+        {
+            "id": 24,
+            "monthOfYear": "2024-03-01T00:00:00.000Z",
+            "existingCount": 56,
+            "createdAt": "2024-02-01T17:17:39.733Z",
+            "updatedAt": "2024-02-01T17:17:39.733Z",
+            "role": {
+                "id": 1,
+                "roleName": "BR-1",
+                "designationName": "Analyst",
+                "avgCompensation": 20000,
+                "createdAt": "2024-02-01T17:17:39.641Z",
+                "updatedAt": "2024-02-01T17:17:39.641Z",
+                "department": {
+                    "id": 1,
+                    "departmentName": "Beauty Retail",
+                    "createdAt": "2024-02-01T17:17:39.510Z",
+                    "updatedAt": "2024-02-01T17:17:39.510Z"
+                }
+            }
+        },
+        {
+            "id": 48,
+            "monthOfYear": "2024-03-01T00:00:00.000Z",
+            "existingCount": 36,
+            "createdAt": "2024-02-01T17:17:39.733Z",
+            "updatedAt": "2024-02-01T17:17:39.733Z",
+            "role": {
+                "id": 2,
+                "roleName": "BR-2",
+                "designationName": "Sr Analyst",
+                "avgCompensation": 40000,
+                "createdAt": "2024-02-01T17:17:39.641Z",
+                "updatedAt": "2024-02-01T17:17:39.641Z",
+                "department": {
+                    "id": 1,
+                    "departmentName": "Beauty Retail",
+                    "createdAt": "2024-02-01T17:17:39.510Z",
+                    "updatedAt": "2024-02-01T17:17:39.510Z"
+                }
+            }
+        }
+    ]
+}

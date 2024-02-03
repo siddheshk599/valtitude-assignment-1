@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { DataService } from '../shared/services/data.service';
 import { CurrencyPipe, DatePipe, DecimalPipe, KeyValuePipe, NgFor, NgIf } from '@angular/common';
 import { FormsModule } from '@angular/forms';
+import * as data from '../shared/data.json';
 
 @Component({
     standalone: true,
@@ -38,56 +39,105 @@ export class DataTableComponent implements OnInit {
         this.getMonthlyCounts('2023-04-01', '2024-03-31');
     }
 
-    getMonthlyCounts(fromMonth: string, toMonth: string): void {
-        this.dataService.getMonthlyCounts(fromMonth, toMonth)
-        .subscribe({
-            next: (result) => {
-                this.monthlyCounts = {};
-
-                result.data?.forEach((monthlyCount) => {
-                    const key: string = String(monthlyCount.role?.roleName);
-                    const data: {
-                        monthOfYear: string,
-                        existingCount: number
-                    } = {
-                        monthOfYear: monthlyCount.monthOfYear,
-                        existingCount: monthlyCount.existingCount
-                    }
-                    
-                    if (Object.hasOwn(this.monthlyCounts, key)) {
-                        this.monthlyCounts[key].push(data);
-
-                    } else {
-                        this.monthlyCounts[key] = [data];
-                    }
-                });
-
-                this.months = [...this.monthlyCounts[Object.keys(this.monthlyCounts)[0]].map((e) => e.monthOfYear)];
-
-                Object.keys(this.monthlyCounts).forEach((roleName) => {
-                    this.monthlyCounts[roleName].forEach((role, idx) => {
-                        this.onCountUpdate(0, roleName, idx);
-                    });
-                });
-            },
-            error: (error) => {
-                this.errorMsg = 'Error in fetching monthly counts.';
-            }
-        });
-    }
-
     getRoles(): void {
-        this.dataService.getRoles()
-        .subscribe({
-            next: (result) => {
-                result.data?.forEach((role) => {
-                    this.roleCompensations[role?.roleName] = role.avgCompensation;
-                });
-            },
-            error: (error) => {
-                this.errorMsg = 'Error in fetching roles.';
+        data.ROLES.forEach((role) => {
+            this.roleCompensations[role?.roleName] = role.avgCompensation;
+        });
+        
+        // API call
+        // this.dataService.getRoles()
+        // .subscribe({
+        //     next: (result) => {
+        //         result.data?.forEach((role) => {
+        //             this.roleCompensations[role?.roleName] = role.avgCompensation;
+        //         });
+        //     },
+        //     error: (error) => {
+        //         this.errorMsg = 'Error in fetching roles.';
+        //     }
+        // });
+    }
+    
+    getMonthlyCounts(fromMonth: string, toMonth: string): void {
+        this.monthlyCounts = {};
+
+        let filteredData = [...data.MONTHLY_COUNTS.filter((e) => {
+            let fromDate = new Date(fromMonth);
+            let toDate = new Date(toMonth);
+            let currentDate = new Date(e.monthOfYear);
+
+            if (
+                currentDate.getTime() >= fromDate.getTime() &&
+                currentDate.getTime() <= toDate.getTime()
+            ) {
+                return true;
+            }
+
+            return false;
+        })];
+
+        filteredData.forEach((monthlyCount) => {
+            const key: string = String(monthlyCount.role?.roleName);
+            const data: {
+                monthOfYear: string,
+                existingCount: number
+            } = {
+                monthOfYear: monthlyCount.monthOfYear,
+                existingCount: monthlyCount.existingCount
+            }
+            
+            if (Object.hasOwn(this.monthlyCounts, key)) {
+                this.monthlyCounts[key].push(data);
+
+            } else {
+                this.monthlyCounts[key] = [data];
             }
         });
+
+        this.months = [...this.monthlyCounts[Object.keys(this.monthlyCounts)[0]].map((e) => e.monthOfYear)];
+
+        Object.keys(this.monthlyCounts).forEach((roleName) => {
+            this.monthlyCounts[roleName].forEach((role, idx) => {
+                this.onCountUpdate(0, roleName, idx);
+            });
+        });
+
+        // API call
+        // this.dataService.getMonthlyCounts(fromMonth, toMonth)
+        // .subscribe({
+        //     next: (result) => {
+        //         this.monthlyCounts = {};
+
+        //         result.data?.forEach((monthlyCount) => {
+        //             const key: string = String(monthlyCount.role?.roleName);
+        //             const data: {
+        //                 monthOfYear: string,
+        //                 existingCount: number
+        //             } = {
+        //                 monthOfYear: monthlyCount.monthOfYear,
+        //                 existingCount: monthlyCount.existingCount
+        //             }
+                    
+        //             if (Object.hasOwn(this.monthlyCounts, key)) {
+        //                 this.monthlyCounts[key].push(data);
+
+        //             } else {
+        //                 this.monthlyCounts[key] = [data];
+        //             }
+        //         });
+
+        //         this.months = [...this.monthlyCounts[Object.keys(this.monthlyCounts)[0]].map((e) => e.monthOfYear)];
+
+        //         Object.keys(this.monthlyCounts).forEach((roleName) => {
+        //             this.monthlyCounts[roleName].forEach((role, idx) => {
+        //                 this.onCountUpdate(0, roleName, idx);
+        //             });
+        //         });
+        //     },
+        //     error: (error) => {
+        //         this.errorMsg = 'Error in fetching monthly counts.';
+        //     }
+        // });
     }
 
     onUpdateFinancialYear(value: string): void {
