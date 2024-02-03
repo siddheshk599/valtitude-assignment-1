@@ -1,0 +1,41 @@
+{
+  "name": "hr-system-server",
+  "version": "1.0.0",
+  "description": "Back-end server for Valtitude HR System front-end.",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "npx sequelize-cli db:migrate && npx sequelize-cli db:seed:all",
+    "start": "node index.js",
+    "start:dev": "nodemon index.js --ignore tests/",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "db:reset": "npx sequelize-cli db:drop && npx sequelize-cli db:create && npm run prestart"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/siddheshk599/hr-system-server.git"
+  },
+  "author": "Siddhesh Kudtarkar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/siddheshk599/hr-system-server/issues"
+  },
+  "homepage": "https://github.com/siddheshk599/hr-system-server#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.1",
+    "express": "^4.18.2",
+    "express-pino-logger": "^7.0.0",
+    "http-status-codes": "^2.3.0",
+    "logger": "^0.0.1",
+    "node-xlsx": "^0.23.0",
+    "pg": "^8.11.3",
+    "pino": "^8.17.2",
+    "sequelize": "^6.35.2",
+    "wait-port": "^1.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3",
+    "sequelize-cli": "^6.6.2"
+  }
+}

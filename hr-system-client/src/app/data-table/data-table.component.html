@@ -1,0 +1,149 @@
+<div *ngIf="errorMsg" class="alert alert-danger">
+    <p>{{ errorMsg }}</p>
+    <button class="btn btn-danger" (click)="errorMsg = ''">
+        OK
+    </button>
+</div>
+
+<div class="table-responsive p-3">
+    <table class="table table-bordered border-dark">
+        <thead>
+            <tr>
+                <th [attr.colspan]="months.length + 2" class="bg-primary text-center text-white fs-4">
+                    Valtitude HR System
+                </th>
+            </tr>
+
+            <tr><th></th></tr>
+
+            <tr>
+                <th class="bg-info text-start fw-bold">
+                    Dept. Name
+                </th>
+                <th class="bg-info text-center">
+                    Beauty Retail
+                </th>
+            </tr>
+
+            <tr><th></th></tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td colspan="5">
+                    <b>Select Financial Year (F. Y.):</b>
+                    
+                    <div class="form-check">
+                        <input type="radio" name="financialYear" id="finYear22-23" value="finYear22-23" class="form-check-input" [(ngModel)]="financialYear" (ngModelChange)="onUpdateFinancialYear($event)">
+                        
+                        <label for="finYear22-23" class="form-check-label">
+                             F. Y. 2022 - 2023
+                        </label>
+                    </div>
+
+                    <div class="form-check">
+                        <input type="radio" name="financialYear" id="finYear23-24" value="finYear23-24" class="form-check-input" [(ngModel)]="financialYear" (ngModelChange)="onUpdateFinancialYear($event)">
+                        
+                        <label for="finYear23-24" class="form-check-label">
+                             F. Y. 2023 - 2024
+                        </label>
+                    </div>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="fw-bold">
+                    Role Name
+                </td>
+                
+                <td *ngFor="let month of months" class="fw-bold text-center">
+                    {{ month | date: 'MMM - yy' }}
+                </td>
+
+                <td class="fw-bold text-center">
+                    Annual Total
+                </td>
+            </tr>
+
+            <ng-container *ngFor="let item of monthlyCounts | keyvalue">
+                <tr>
+                    <td class="fw-bold">
+                        {{ item.key }}
+                    </td>
+                    
+                    <td *ngFor="let elem of item.value; let idx = index">
+                        <input type="number" [name]="item.key + '-' + idx" [id]="item.key + '-' + idx" [(ngModel)]="elem.existingCount" (ngModelChange)="onCountUpdate($event, item.key, idx)" min="0" class="form-control text-end bg-warning">
+                    </td>
+
+                    <td>
+                        <input type="number" [name]="item.key + '-annual-headcount'" [id]="item.key + '-annual-headcount'" [value]="sum[item.key + '-annual-headcount']" class="form-control bg-success text-white text-end" disabled>
+                    </td>
+                </tr>
+    
+                <tr>
+                    <td class="fw-bold">
+                        {{ item.key }} Cost-to-Company
+                    </td>
+
+                    <td *ngFor="let elem of item.value">
+                        {{ elem.existingCount * roleCompensations[item.key] | currency: 'INR' : '₹ ' }}
+                    </td>
+    
+                    <td>
+                        {{ sum[item.key + "-annual-ctc"] | currency: 'INR' : '₹ ' }}
+                    </td>
+                </tr>
+            </ng-container>
+
+            <tr>
+                <td class="fw-bold">
+                    Total Headcount
+                </td>
+
+                <td *ngFor="let month of months" class="text-end">
+                    {{ sum[month + '-annual-headcount'] | number }}
+                </td>
+
+                <td class="text-end">
+                    {{ sum['final-annual-headcount'] | number }}
+                </td>
+            </tr>
+
+            <tr>
+                <td class="fw-bold">
+                    Total Cost-to-Company
+                </td>
+
+                <td *ngFor="let month of months">
+                    {{ sum[month + '-annual-ctc'] | currency: 'INR' : '₹ ' }}
+                </td>
+
+                <td>
+                    {{ sum['final-annual-ctc'] | currency: 'INR' : '₹ ' }}
+                </td>
+            </tr>
+
+            <tr>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td class="fw-bold">
+                    Cost per Employee / Month
+                </td>
+
+                <td *ngFor="let month of months" class="text-end">
+                    {{ (
+                        sum[month + '-annual-ctc'] / sum[month + '-annual-headcount']
+                        ) | currency: 'INR' : '₹ ' }}
+                </td>
+
+                <td class="text-end">
+                    {{ (
+                        sum['final-annual-ctc'] / sum['final-annual-headcount']
+                        ) | currency: 'INR' : '₹ ' }}
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
